@@ -1,6 +1,6 @@
 //PRACTICA MATRICES 
 import java.io.*;
-class MayoresATresMatriz
+class TablasMultiplicacion
   {
    public static void main  (String[] args)
      {

@@ -1,5 +1,5 @@
 //PRACTICA MATRICES 
-class TablasMultiplicacion
+class MostrarValoresMatriz
   {
    public static void main  (String[] args)
      {
