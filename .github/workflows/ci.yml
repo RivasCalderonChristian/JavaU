@@ -19,7 +19,8 @@ jobs:
           java-version: '17'
       - name: Compile .java
         run: |
-          javac -d bin $(find . -name "*.java")
+          find src -name "*.java" > sources.txt || true
+          javac -d bin @sources.txt
       - name: Run HelloWorld
         run: |
           java -cp bin HelloWorld || true

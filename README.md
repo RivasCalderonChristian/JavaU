@@ -11,18 +11,31 @@ Requisitos:
 Compilar y ejecutar un archivo Java (PowerShell):
 
 ```powershell
-# Compilar
-javac NombreArchivo.java
+# Compilar (archivo en src/)
+javac -d bin src\NombreArchivo.java
 # Ejecutar
-java NombreArchivo
+java -cp bin NombreArchivo
 ```
 
-Compilar todos los archivos .java en el directorio (PowerShell):
+Compilar todos los archivos .java en `src/` (PowerShell):
 
 ```powershell
-javac *.java
-java NombreArchivoPrincipal
+javac -d bin src\*.java
+java -cp bin NombreArchivoPrincipal
 ```
 
-Si quieres usar tareas de VS Code, he incluido un archivo `tasks.json` en `.vscode` con tareas para compilar y ejecutar.
+También puedes usar los scripts en `scripts/`:
+
+```powershell
+# Compilar todos (se compilan archivo por archivo para tolerar errores individuales)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force; .\scripts\build_all.ps1
+
+# Limpiar bin
+.\scripts\clean.ps1
+
+# Ejecutar clase desde bin (por defecto HelloWorld)
+.\scripts\run.ps1 -main HelloWorld
+```
+
+Si quieres usar tareas de VS Code, ya incluí `tasks.json` y `launch.json` en `.vscode`.
 

@@ -5,7 +5,7 @@ $ErrorActionPreference = 'Continue'
 
 if (-Not (Test-Path -Path "bin")) { New-Item -ItemType Directory -Path "bin" | Out-Null }
 
-$files = Get-ChildItem -Path . -Filter *.java
+$files = Get-ChildItem -Path .\src -Filter *.java
 $success = @()
 $failed = @()
 
