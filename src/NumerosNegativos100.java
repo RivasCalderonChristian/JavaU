@@ -1,4 +1,3 @@
-import java.io.*;
 class NumerosNegativos100
   {    
     public static void main(String[] args)

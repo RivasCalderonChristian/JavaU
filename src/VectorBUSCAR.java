@@ -1,5 +1,4 @@
-import java.io.*;
-class VectorBUSCAR
+class VectorBuscar
    {
     public static void main (String[] args)
      {

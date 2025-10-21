@@ -1,5 +1,4 @@
-import java.io.*;
-class clase
+class NumerosNegativosV2
   {    
     public static void main(String[] args)
      {

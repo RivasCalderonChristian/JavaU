@@ -1,5 +1,4 @@
 //PRACTICA MATRICES 
-import java.io.*;
 class SumarMatriz
   {
    public static void main  (String[] args)
