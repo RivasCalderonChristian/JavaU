@@ -1,3 +1,5 @@
+[![CI](https://github.com/RivasCalderonChristian/JavaU/actions/workflows/ci.yml/badge.svg)](https://github.com/RivasCalderonChristian/JavaU/actions)
+
 # JavaM - Proyecto Java simple
 
 Este workspace contiene varios programas Java de ejemplo.
