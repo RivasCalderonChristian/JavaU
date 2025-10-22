@@ -1,3 +1,4 @@
+package preparatoria;
 class DoWhileProgramacion230
    {
     public static void main (String[] args)

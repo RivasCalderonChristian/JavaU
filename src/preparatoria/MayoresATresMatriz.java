@@ -1,3 +1,4 @@
+package preparatoria;
 //PRACTICA MATRICES 
 class MayoresATresMatriz
   {

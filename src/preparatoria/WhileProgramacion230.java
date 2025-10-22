@@ -1,3 +1,4 @@
+package preparatoria;
 class WhileProgramacion230
    {
     public static void main (String[] args)

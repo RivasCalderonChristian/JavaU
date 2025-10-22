@@ -1,3 +1,4 @@
+package preparatoria;
 class VectorBuscar
    {
     public static void main (String[] args)
